@@ -1,16 +1,16 @@
 cask "yac" do
-  version "0.2.4"
+  version "0.2.5"
 
   on_arm do
     url "https://github.com/pythias/yac/releases/download/v#{version}/Yac.IDE_#{version}_aarch64.dmg",
         verified: "github.com/pythias/yac/"
-    sha256 "d39ed8261e21e52d297aedf1654bc86ccf544eaa944fa8223a7f3e5aaec73bc1"
+    sha256 "027dbbcfb7caec0db3f073fc40f2264a295bd013ade7b2ac336c4205dfe2f3d9"
   end
 
   on_intel do
     url "https://github.com/pythias/yac/releases/download/v#{version}/Yac.IDE_#{version}_x64.dmg",
         verified: "github.com/pythias/yac/"
-    sha256 "7431fb4aa9c003d45814f1236dd37960a2a99af28ededb9cc4689653a3e444ba"
+    sha256 "f3a50f672185f83dc65b04d41ed1ed441cc23dc1a88970f2ec0c18acb72c7eed"
   end
 
   name "Yac IDE"
